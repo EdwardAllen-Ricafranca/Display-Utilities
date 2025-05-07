@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="display-2">TASK 1: Application of D-None,d-inline and d-block</h1>
+        <h1 class="bg-success text-white d-inline">This is a h1 inline block</h1>
+        <h1 class="bg-primary text-dark d-none">This is a h1 hidden block</h1>
+        <span class="bg-info text-white d-block">I AM A BLOCK SPAN</span>
+        <h1 class="bg-warning text-dark d-block">I AM A H1 BLOCK SPAN</h1>
+        <h1 class="bg-success text-white d-none d-sm-block">Hidden when viewport is xs</h1>
+        <h1 class="bg-success text-white d-none d-md-block">Hidden when viewport is xs and sm</h1>
+        </div>
+    
+        <div class="container">
+            <h1 class="display-2">TASK 2: BREAKPOINTS WITH DISPLAY CONTROL</h1>
+            <h2 style="font-style: italic;">Current Breakpoint is:</h2>
+            <span class="d-inline d-sm-none text-danger" style="font-size: 50px;"><strong>XS</strong></span>
+            <span class="d-none d-sm-inline  d-md-none text-warning" style="font-size: 50px;"><strong>SM</strong></span>
+            <span class="d-none d-md-inline  d-lg-none text-succes" style="font-size: 50px;"><strong>MD</strong></span>
+            <span class="d-none d-lg-inline  d-xl-none text-info" style="font-size: 50px;"><strong>LG</strong></span>
+            <span class="d-none d-xl-inline  d-xxl-none text-prmary" style="font-size: 50px;"><strong>XL</strong></span>
+            <span class="d-none d-xxl-inline text-dark" style="font-size: 50px;"><strong>XL</strong></span>
+        </div>
+    
+        <div class="container">
+            <h1 class="display-2">TASK 3: APPLICATION OF BORDER ADDITIVE</h1>
+            <span class="m-0 bg-info border border-dark" style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 0</span>
+            <span class="m-1 bg-light border border-secondary" style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 1</span>
+            <span class="m-2 bg-info border-start border-dark"  style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 2</span>
+            <span class="m-3 bg-light border-end border-secondary"  style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 3</span>
+            <span class="m-4 bg-info border-bottom border-dark" style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 4</span>
+            <span class="m-5 bg-light border-end border-secondary"  style="width:200px; height:200px; display: inline-block; text-align: center;">Margin 5</span>
+        </div>
+
+    <div class="container">
+        <h1 class="display-2">TASK 4: APPLICATION OF BORDER SUBTRACTIVE</h1>
+        <div class="container">
+            <button class="pt-1 bg-secondary text-light border border-top-0 border-3 border-warning">Top padding-1 and "Border"</button><br><br>
+            <button class="pb-2 bg-secondary text-light border border-bottom-0 border-3 border-warning">Bottom padding-2 and "Border"</button><br><br>
+            <button class="py-3 bg-secondary text-light border border-end-0 border-3 border-warning">Top/bottom padding-3 with right "border"</button><br><br>
+            <button class="ps-4 bg-secondary text-light border border-start-0 border-3 border-warning">Left padding-4 and "border"</button><br><br>
+            <button class="pe-5 bg-secondary text-light">Right padding-5</button><br><br>
+            <button class="px-5 bg-secondary text-light">Left/right padding-5</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="display-2">TASK 5: APPLICATION OF BORDER WIDTH,COLOR AND RADIUS</h1>
+        <h2 class="bg-info p-2 border rounded-top border-success border-3">Rounded-Green top border-Width: 3</h2>
+        <h2 class="bg-light p-2 border rounded-bottom border-primary border-5">Rounded-Blue bottom border-Width: 5</h2>
+        <h2 class="bg-info p-2 border rounded-end border-warning border-4">Rounded-Yellow right border-Width: 4</h2>
+        <h2 class="bg-light p-2 border rounded-start border-info border-2">Rounded-Cyan left border-Width: 2</h2>
+        <h2 class="bg-info p-2 border rounded border-dark border-1">Rounded-Black border-Width: 1</h2>
+        <h2 class="bg-secondary border border-light border-5 rounded-circle p-5">Circle-White border: 5px</h2>
+        <h2 class="bg-info border border-secondary border-4 rounded-pill p-3">Pill-Gray border: 3px.</h2>
+    </div>
+    <div class="container d-grid gap-4">
+        <h1 class="display-2">TASK 6: APPLICATION OF ROUNDED SIZE & SHADOW</h1>
+        <span class="bg-light border border-4 rounded-1">So this is a black 4px border with a rounded-1!</span>
+        <span class="shadow-sm bg-light border border-4 rounded-2">So this is a black 4px border with a rounded-2! Wait, I have a small shadow too???</span>
+        <span class="shadow bg-light border border-4 rounded-3">So this is a black 4px border with a rounded-3! Wait, I have a medium shadow too???</span>
+        <span class="shadow-lg bg-light border border-4 rounded-4">So this is a black 4px border with a rounded-4! Wait, I have a large shadow too???</span>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
